@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/more_fragment_Tl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_60dp"
+        android:gravity="center"
+        android:text="Offers"
+        style="bold"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/user_offer_fragment_rv_offers"
+        android:layout_width="match_parent"
+        tools:listitem="@layout/item_user_offers"
+        android:layout_height="match_parent"/>
+</LinearLayout>

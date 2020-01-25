@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/dim_8dp"
+    android:layout_marginTop="@dimen/dim_8dp"
+    android:layout_marginEnd="@dimen/dim_8dp"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/item_category_restaurant_img_restaurant_logo"
+        android:layout_width="@dimen/dim_50dp"
+        android:layout_height="@dimen/dim_50dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/item_category_restaurant_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dim_4dp"
+        android:text="Pizza" />
+
+</LinearLayout>
